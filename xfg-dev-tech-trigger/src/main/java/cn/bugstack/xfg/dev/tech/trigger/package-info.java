@@ -1,1 +1,0 @@
-package cn.bugstack.xfg.dev.tech.trigger;
