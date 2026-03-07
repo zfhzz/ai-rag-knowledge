@@ -23,6 +23,7 @@ public class OllamaController implements IAIService {
     @RequestMapping(value = "generate", method = RequestMethod.GET)
     @Override
     public ChatResponse generate(@RequestParam String model, @RequestParam String message) {
+        log.info("回答问题ing");
         return chatClient.call(new Prompt(message, OllamaOptions.create().withModel(model)));
     }
 
