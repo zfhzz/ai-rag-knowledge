@@ -520,3 +520,425 @@ You may wish to exclude one of them to ensure predictable runtime behavior
 26-03-08.21:03:31.275 [main            ] INFO  RAGTest                - 上传完成
 26-03-08.21:03:31.302 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
 26-03-08.21:03:31.306 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.
+26-03-08.21:23:49.519 [main            ] WARN  DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/E:/maven/apache-maven-3.8.8/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/E:/maven/apache-maven-3.8.8/repository/org/json/json/20231013/json-20231013.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+26-03-08.21:23:49.533 [main            ] INFO  JGitTest               - Starting JGitTest using Java 17.0.18 with PID 9844 (started by ZFHZZ in E:\java_project\ai-rag-knowledge\xfg-dev-tech-app)
+26-03-08.21:23:49.535 [main            ] INFO  JGitTest               - The following 1 profile is active: "dev"
+26-03-08.21:23:50.127 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+26-03-08.21:23:50.128 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+26-03-08.21:23:50.151 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+26-03-08.21:23:50.924 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
+26-03-08.21:23:51.045 [main            ] INFO  HikariPool             - HikariCP - Added connection org.postgresql.jdbc.PgConnection@542d3f13
+26-03-08.21:23:51.047 [main            ] INFO  HikariDataSource       - HikariCP - Start completed.
+26-03-08.21:23:52.062 [main            ] INFO  Version                - Redisson 3.44.0
+26-03-08.21:23:52.252 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-08.21:23:52.265 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-08.21:23:53.123 [main            ] INFO  JGitTest               - Started JGitTest in 3.931 seconds (process running for 4.768)
+26-03-08.21:23:53.733 [main            ] INFO  JGitTest               - 克隆路径：E:\clone_path
+26-03-08.21:23:53.772 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
+26-03-08.21:23:53.775 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.
+26-03-08.21:30:30.433 [main            ] WARN  DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/E:/maven/apache-maven-3.8.8/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/E:/maven/apache-maven-3.8.8/repository/org/json/json/20231013/json-20231013.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+26-03-08.21:30:30.445 [main            ] INFO  JGitTest               - Starting JGitTest using Java 17.0.18 with PID 4344 (started by ZFHZZ in E:\java_project\ai-rag-knowledge\xfg-dev-tech-app)
+26-03-08.21:30:30.447 [main            ] INFO  JGitTest               - The following 1 profile is active: "dev"
+26-03-08.21:30:30.971 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+26-03-08.21:30:30.972 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+26-03-08.21:30:30.992 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+26-03-08.21:30:31.659 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
+26-03-08.21:30:31.745 [main            ] INFO  HikariPool             - HikariCP - Added connection org.postgresql.jdbc.PgConnection@35ec8a10
+26-03-08.21:30:31.745 [main            ] INFO  HikariDataSource       - HikariCP - Start completed.
+26-03-08.21:30:32.675 [main            ] INFO  Version                - Redisson 3.44.0
+26-03-08.21:30:32.857 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-08.21:30:32.868 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-08.21:30:33.607 [main            ] INFO  JGitTest               - Started JGitTest in 3.507 seconds (process running for 4.285)
+26-03-08.21:30:34.130 [main            ] INFO  JGitTest               - 克隆路径：E:\clone_path
+26-03-08.21:30:43.573 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
+26-03-08.21:30:43.575 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.
+26-03-08.21:31:54.804 [main            ] WARN  DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/E:/maven/apache-maven-3.8.8/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/E:/maven/apache-maven-3.8.8/repository/org/json/json/20231013/json-20231013.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+26-03-08.21:31:54.817 [main            ] INFO  JGitTest               - Starting JGitTest using Java 17.0.18 with PID 21136 (started by ZFHZZ in E:\java_project\ai-rag-knowledge\xfg-dev-tech-app)
+26-03-08.21:31:54.817 [main            ] INFO  JGitTest               - The following 1 profile is active: "dev"
+26-03-08.21:31:55.409 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+26-03-08.21:31:55.411 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+26-03-08.21:31:55.433 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+26-03-08.21:31:56.219 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
+26-03-08.21:31:56.303 [main            ] INFO  HikariPool             - HikariCP - Added connection org.postgresql.jdbc.PgConnection@598c0da4
+26-03-08.21:31:56.304 [main            ] INFO  HikariDataSource       - HikariCP - Start completed.
+26-03-08.21:31:56.748 [main            ] INFO  Version                - Redisson 3.44.0
+26-03-08.21:31:56.934 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-08.21:31:56.948 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-08.21:31:57.829 [main            ] INFO  JGitTest               - Started JGitTest in 3.388 seconds (process running for 4.242)
+26-03-08.21:31:58.591 [main            ] INFO  JGitTest               - 克隆路径：E:\clone_path
+26-03-08.21:32:04.600 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
+26-03-08.21:32:04.604 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.
+26-03-08.21:40:17.835 [main            ] WARN  DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/E:/maven/apache-maven-3.8.8/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/E:/maven/apache-maven-3.8.8/repository/org/json/json/20231013/json-20231013.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+26-03-08.21:40:17.854 [main            ] INFO  JGitTest               - Starting JGitTest using Java 17.0.18 with PID 18872 (started by ZFHZZ in E:\java_project\ai-rag-knowledge\xfg-dev-tech-app)
+26-03-08.21:40:17.855 [main            ] INFO  JGitTest               - The following 1 profile is active: "dev"
+26-03-08.21:40:18.781 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+26-03-08.21:40:18.784 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+26-03-08.21:40:18.809 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+26-03-08.21:40:19.728 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
+26-03-08.21:40:19.835 [main            ] INFO  HikariPool             - HikariCP - Added connection org.postgresql.jdbc.PgConnection@6b4ffcd8
+26-03-08.21:40:19.836 [main            ] INFO  HikariDataSource       - HikariCP - Start completed.
+26-03-08.21:40:21.214 [main            ] INFO  Version                - Redisson 3.44.0
+26-03-08.21:40:21.511 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-08.21:40:21.525 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-08.21:40:23.234 [main            ] INFO  JGitTest               - Started JGitTest in 6.102 seconds (process running for 7.016)
+26-03-08.21:40:23.784 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\.git\config
+26-03-08.21:40:24.721 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\.git\FETCH_HEAD
+26-03-08.21:40:24.823 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\.git\HEAD
+26-03-08.21:40:24.873 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\.git\index
+26-03-08.21:40:24.966 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
+26-03-08.21:40:24.968 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.
+26-03-08.21:41:35.245 [main            ] WARN  DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/E:/maven/apache-maven-3.8.8/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/E:/maven/apache-maven-3.8.8/repository/org/json/json/20231013/json-20231013.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+26-03-08.21:41:35.272 [main            ] INFO  JGitTest               - Starting JGitTest using Java 17.0.18 with PID 2552 (started by ZFHZZ in E:\java_project\ai-rag-knowledge\xfg-dev-tech-app)
+26-03-08.21:41:35.274 [main            ] INFO  JGitTest               - The following 1 profile is active: "dev"
+26-03-08.21:41:35.946 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+26-03-08.21:41:35.950 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+26-03-08.21:41:35.976 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+26-03-08.21:41:37.082 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
+26-03-08.21:41:37.227 [main            ] INFO  HikariPool             - HikariCP - Added connection org.postgresql.jdbc.PgConnection@57bd9e1
+26-03-08.21:41:37.228 [main            ] INFO  HikariDataSource       - HikariCP - Start completed.
+26-03-08.21:41:38.219 [main            ] INFO  Version                - Redisson 3.44.0
+26-03-08.21:41:38.672 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-08.21:41:38.713 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-08.21:41:39.689 [main            ] INFO  JGitTest               - Started JGitTest in 4.853 seconds (process running for 5.811)
+26-03-08.21:41:40.295 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
+26-03-08.21:41:40.297 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.
+26-03-08.21:42:57.311 [main            ] WARN  DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/E:/maven/apache-maven-3.8.8/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/E:/maven/apache-maven-3.8.8/repository/org/json/json/20231013/json-20231013.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+26-03-08.21:42:57.332 [main            ] INFO  JGitTest               - Starting JGitTest using Java 17.0.18 with PID 21216 (started by ZFHZZ in E:\java_project\ai-rag-knowledge\xfg-dev-tech-app)
+26-03-08.21:42:57.333 [main            ] INFO  JGitTest               - The following 1 profile is active: "dev"
+26-03-08.21:42:57.847 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+26-03-08.21:42:57.849 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+26-03-08.21:42:57.869 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+26-03-08.21:42:58.532 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
+26-03-08.21:42:58.635 [main            ] INFO  HikariPool             - HikariCP - Added connection org.postgresql.jdbc.PgConnection@31e33f4e
+26-03-08.21:42:58.637 [main            ] INFO  HikariDataSource       - HikariCP - Start completed.
+26-03-08.21:42:59.132 [main            ] INFO  Version                - Redisson 3.44.0
+26-03-08.21:42:59.365 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-08.21:42:59.384 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-08.21:43:00.808 [main            ] INFO  JGitTest               - Started JGitTest in 3.847 seconds (process running for 4.746)
+26-03-08.21:43:01.394 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\.git\config
+26-03-08.21:43:01.396 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\.git\FETCH_HEAD
+26-03-08.21:43:01.396 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\.git\HEAD
+26-03-08.21:43:01.396 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\.git\index
+26-03-08.21:43:01.396 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\.git\logs\HEAD
+26-03-08.21:43:01.397 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\.git\logs\refs\heads\main
+26-03-08.21:43:01.397 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\.git\logs\refs\remotes\origin\main
+26-03-08.21:43:01.397 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\.git\objects\pack\pack-cb1c3ca2df28e3ec7d0134f4c4a149af35ad720e.idx
+26-03-08.21:43:01.397 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\.git\objects\pack\pack-cb1c3ca2df28e3ec7d0134f4c4a149af35ad720e.pack
+26-03-08.21:43:01.398 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\.git\refs\heads\main
+26-03-08.21:43:01.398 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\.git\refs\remotes\origin\main
+26-03-08.21:43:01.398 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\.gitignore
+26-03-08.21:43:01.398 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\.idea\.gitignore
+26-03-08.21:43:01.398 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\.idea\encodings.xml
+26-03-08.21:43:01.398 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\.idea\misc.xml
+26-03-08.21:43:01.398 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\.idea\ProjectStorage.xml
+26-03-08.21:43:01.398 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\.idea\sqldialects.xml
+26-03-08.21:43:01.398 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\.idea\vcs.xml
+26-03-08.21:43:01.399 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\data\log\log-error-2026-02-28.0.log
+26-03-08.21:43:01.399 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\data\log\log-error-2026-03-02.0.log
+26-03-08.21:43:01.399 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\data\log\log-error-2026-03-03.0.log
+26-03-08.21:43:01.399 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\data\log\log-info-2026-02-28.0.log
+26-03-08.21:43:01.399 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\data\log\log-info-2026-03-02.0.log
+26-03-08.21:43:01.399 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\data\log\log-info-2026-03-03.0.log
+26-03-08.21:43:01.399 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\data\log\log_error.log
+26-03-08.21:43:01.399 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\data\log\log_info.log
+26-03-08.21:43:01.399 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\dev-ops\app\start.sh
+26-03-08.21:43:01.399 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\dev-ops\app\stop.sh
+26-03-08.21:43:01.399 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\dev-ops\docker-compose-app.yml
+26-03-08.21:43:01.400 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\dev-ops\docker-compose-environment-aliyun.yml
+26-03-08.21:43:01.400 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\dev-ops\docker-compose-environment.yml
+26-03-08.21:43:01.400 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\dev-ops\mysql\sql\2-3-group_buy_market.sql
+26-03-08.21:43:01.400 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\dev-ops\nginx\html\css\index.css
+26-03-08.21:43:01.400 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\dev-ops\nginx\html\css\login.css
+26-03-08.21:43:01.400 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\dev-ops\nginx\html\images\sku-13811216-01.png
+26-03-08.21:43:01.401 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\dev-ops\nginx\html\images\sku-13811216-02.png
+26-03-08.21:43:01.401 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\dev-ops\nginx\html\images\sku-13811216-03.png
+26-03-08.21:43:01.401 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\dev-ops\nginx\html\images\sku-13811216-04.png
+26-03-08.21:43:01.401 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\dev-ops\nginx\html\index.html
+26-03-08.21:43:01.401 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\dev-ops\nginx\html\js\index.js
+26-03-08.21:43:01.401 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\dev-ops\nginx\html\js\login.js
+26-03-08.21:43:01.401 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\dev-ops\nginx\html\login.html
+26-03-08.21:43:01.401 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\dev-ops\nginx\nginx\html\css\index.css
+26-03-08.21:43:01.401 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\dev-ops\nginx\nginx\html\css\login.css
+26-03-08.21:43:01.401 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\dev-ops\nginx\nginx\html\images\sku-13811216-01.png
+26-03-08.21:43:01.401 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\dev-ops\nginx\nginx\html\images\sku-13811216-02.png
+26-03-08.21:43:01.402 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\dev-ops\nginx\nginx\html\images\sku-13811216-03.png
+26-03-08.21:43:01.402 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\dev-ops\nginx\nginx\html\images\sku-13811216-04.png
+26-03-08.21:43:01.402 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\dev-ops\nginx\nginx\html\index.html
+26-03-08.21:43:01.402 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\dev-ops\nginx\nginx\html\js\index.js
+26-03-08.21:43:01.402 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\dev-ops\nginx\nginx\html\js\login.js
+26-03-08.21:43:01.402 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\dev-ops\nginx\nginx\html\login.html
+26-03-08.21:43:01.402 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\dev-ops\sql-bak\2-2-group_buy_market.sql
+26-03-08.21:43:01.402 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\dev-ops\sql-bak\2-3-group_buy_market.sql
+26-03-08.21:43:01.402 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\tag\v1.0\docker-compose-app-v1.0.yml
+26-03-08.21:43:01.403 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\tag\v1.0\mysql\my.cnf
+26-03-08.21:43:01.403 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\tag\v1.0\mysql\sql\group_buy_market.sql
+26-03-08.21:43:01.403 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\tag\v1.0\nginx\html\css\index.css
+26-03-08.21:43:01.403 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\tag\v1.0\nginx\html\css\login.css
+26-03-08.21:43:01.403 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\tag\v1.0\nginx\html\images\sku-13811216-01.png
+26-03-08.21:43:01.403 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\tag\v1.0\nginx\html\images\sku-13811216-02.png
+26-03-08.21:43:01.403 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\tag\v1.0\nginx\html\images\sku-13811216-03.png
+26-03-08.21:43:01.403 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\tag\v1.0\nginx\html\images\sku-13811216-04.png
+26-03-08.21:43:01.403 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\tag\v1.0\nginx\html\index.html
+26-03-08.21:43:01.404 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\tag\v1.0\nginx\html\js\index.js
+26-03-08.21:43:01.404 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\tag\v1.0\nginx\html\js\login.js
+26-03-08.21:43:01.404 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\tag\v1.0\nginx\html\login.html
+26-03-08.21:43:01.404 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\tag\v1.0\redis\redis.conf
+26-03-08.21:43:01.404 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\tag\v1.0\tag-v1.0.md
+26-03-08.21:43:01.404 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\docs\ui\UI.drawio
+26-03-08.21:43:01.404 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-api\pom.xml
+26-03-08.21:43:01.405 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-api\src\main\java\cn\bugstack\api\dto\GoodsMarketRequestDTO.java
+26-03-08.21:43:01.405 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-api\src\main\java\cn\bugstack\api\dto\GoodsMarketResponseDTO.java
+26-03-08.21:43:01.405 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-api\src\main\java\cn\bugstack\api\dto\LockMarketPayOrderRequestDTO.java
+26-03-08.21:43:01.405 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-api\src\main\java\cn\bugstack\api\dto\LockMarketPayOrderResponseDTO.java
+26-03-08.21:43:01.405 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-api\src\main\java\cn\bugstack\api\dto\NotifyRequestDTO.java
+26-03-08.21:43:01.405 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-api\src\main\java\cn\bugstack\api\dto\package-info.java
+26-03-08.21:43:01.405 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-api\src\main\java\cn\bugstack\api\dto\SettlementMarketPayOrderRequestDTO.java
+26-03-08.21:43:01.405 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-api\src\main\java\cn\bugstack\api\dto\SettlementMarketPayOrderResponseDTO.java
+26-03-08.21:43:01.405 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-api\src\main\java\cn\bugstack\api\IDCCService.java
+26-03-08.21:43:01.405 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-api\src\main\java\cn\bugstack\api\IMarketIndexService.java
+26-03-08.21:43:01.405 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-api\src\main\java\cn\bugstack\api\IMarketTradeService.java
+26-03-08.21:43:01.405 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-api\src\main\java\cn\bugstack\api\package-info.java
+26-03-08.21:43:01.405 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-api\src\main\java\cn\bugstack\api\response\Response.java
+26-03-08.21:43:01.406 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\build.sh
+26-03-08.21:43:01.406 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\data\log\log-error-2026-02-25.0.log
+26-03-08.21:43:01.406 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\data\log\log-error-2026-02-28.0.log
+26-03-08.21:43:01.406 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\data\log\log-error-2026-03-01.0.log
+26-03-08.21:43:01.406 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\data\log\log-error-2026-03-02.0.log
+26-03-08.21:43:01.406 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\data\log\log-info-2026-02-24.0.log
+26-03-08.21:43:01.406 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\data\log\log-info-2026-02-25.0.log
+26-03-08.21:43:01.406 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\data\log\log-info-2026-02-26.0.log
+26-03-08.21:43:01.406 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\data\log\log-info-2026-02-27.0.log
+26-03-08.21:43:01.406 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\data\log\log-info-2026-02-28.0.log
+26-03-08.21:43:01.406 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\data\log\log-info-2026-03-01.0.log
+26-03-08.21:43:01.406 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\data\log\log-info-2026-03-02.0.log
+26-03-08.21:43:01.406 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\data\log\log_error.log
+26-03-08.21:43:01.406 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\data\log\log_info.log
+26-03-08.21:43:01.406 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\Dockerfile
+26-03-08.21:43:01.406 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\pom.xml
+26-03-08.21:43:01.407 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\main\java\cn\bugstack\Application.java
+26-03-08.21:43:01.408 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\main\java\cn\bugstack\config\DCCValueBeanFactory.java
+26-03-08.21:43:01.408 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\main\java\cn\bugstack\config\GuavaConfig.java
+26-03-08.21:43:01.408 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\main\java\cn\bugstack\config\OKHttpClientConfig.java
+26-03-08.21:43:01.408 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\main\java\cn\bugstack\config\package-info.java
+26-03-08.21:43:01.408 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\main\java\cn\bugstack\config\RedisClientConfig.java
+26-03-08.21:43:01.408 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\main\java\cn\bugstack\config\RedisClientConfigProperties.java
+26-03-08.21:43:01.408 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\main\java\cn\bugstack\config\ThreadPoolConfig.java
+26-03-08.21:43:01.408 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\main\java\cn\bugstack\config\ThreadPoolConfigProperties.java
+26-03-08.21:43:01.408 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\main\java\cn\bugstack\package-info.java
+26-03-08.21:43:01.408 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\main\resources\application-dev.yml
+26-03-08.21:43:01.408 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\main\resources\application-prod.yml
+26-03-08.21:43:01.408 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\main\resources\application-test.yml
+26-03-08.21:43:01.408 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\main\resources\application.yml
+26-03-08.21:43:01.408 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\main\resources\logback-spring.xml
+26-03-08.21:43:01.408 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\main\resources\mybatis\config\mybatis-config.xml
+26-03-08.21:43:01.410 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\main\resources\mybatis\mapper\crowd_tags_detail_mapper.xml
+26-03-08.21:43:01.410 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\main\resources\mybatis\mapper\crowd_tags_job_mapper.xml
+26-03-08.21:43:01.410 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\main\resources\mybatis\mapper\crowd_tags_mapper.xml
+26-03-08.21:43:01.410 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\main\resources\mybatis\mapper\group_buy_activity_mapper.xml
+26-03-08.21:43:01.410 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\main\resources\mybatis\mapper\group_buy_discount_mapper.xml
+26-03-08.21:43:01.410 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\main\resources\mybatis\mapper\group_buy_order_list_mapper.xml
+26-03-08.21:43:01.410 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\main\resources\mybatis\mapper\group_buy_order_mapper.xml
+26-03-08.21:43:01.410 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\main\resources\mybatis\mapper\nofify_task_mapper.xml
+26-03-08.21:43:01.410 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\main\resources\mybatis\mapper\sc_sku_activity_mapper.xml
+26-03-08.21:43:01.410 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\main\resources\mybatis\mapper\sku_mapper.xml
+26-03-08.21:43:01.410 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\test\java\cn\bugstack\test\ApiTest.java
+26-03-08.21:43:01.411 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\test\java\cn\bugstack\test\domain\activity\IIndexGroupBuyMarketServiceTest.java
+26-03-08.21:43:01.411 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\test\java\cn\bugstack\test\domain\tag\ITagServiceTest.java
+26-03-08.21:43:01.411 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\test\java\cn\bugstack\test\domain\trade\ITradeOrderServiceTest.java
+26-03-08.21:43:01.411 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\test\java\cn\bugstack\test\domain\trade\TradeSettlementOrderServiceTest.java
+26-03-08.21:43:01.411 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\test\java\cn\bugstack\test\infrastructure\dao\GroupBuyActivityDaoTest.java
+26-03-08.21:43:01.411 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\test\java\cn\bugstack\test\infrastructure\dao\GroupBuyDiscountDaoTest.java
+26-03-08.21:43:01.411 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\test\java\cn\bugstack\test\infrastructure\gateway\GroupBuyNotifyServiceTest.java
+26-03-08.21:43:01.412 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\test\java\cn\bugstack\test\trigger\MarketTradeControllerTest.java
+26-03-08.21:43:01.412 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\test\java\cn\bugstack\test\types\Link01Test.java
+26-03-08.21:43:01.412 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\test\java\cn\bugstack\test\types\Link02Test.java
+26-03-08.21:43:01.412 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\test\java\cn\bugstack\test\types\rule01\factory\Rule01TradeRuleFactory.java
+26-03-08.21:43:01.412 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\test\java\cn\bugstack\test\types\rule01\logic\RuleLogic101.java
+26-03-08.21:43:01.412 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\test\java\cn\bugstack\test\types\rule01\logic\RuleLogic102.java
+26-03-08.21:43:01.412 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\test\java\cn\bugstack\test\types\rule02\factory\Rule02TradeRuleFactory.java
+26-03-08.21:43:01.412 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\test\java\cn\bugstack\test\types\rule02\logic\RuleLogic201.java
+26-03-08.21:43:01.412 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\test\java\cn\bugstack\test\types\rule02\logic\RuleLogic202.java
+26-03-08.21:43:01.412 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-app\src\test\java\cn\bugstack\test\types\rule02\logic\XxxResponse.java
+26-03-08.21:43:01.413 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\pom.xml
+26-03-08.21:43:01.413 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\activity\adapter\package-info.java
+26-03-08.21:43:01.414 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\activity\adapter\port\package-info.java
+26-03-08.21:43:01.414 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\activity\adapter\repository\IActivityRepository.java
+26-03-08.21:43:01.414 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\activity\adapter\repository\package-info.java
+26-03-08.21:43:01.414 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\activity\model\aggregate\package-info.java
+26-03-08.21:43:01.414 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\activity\model\entity\MarketProductEntity.java
+26-03-08.21:43:01.414 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\activity\model\entity\TrialBalanceEntity.java
+26-03-08.21:43:01.414 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\activity\model\entity\UserGroupBuyOrderDetailEntity.java
+26-03-08.21:43:01.415 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\activity\model\valobj\DiscountTypeEnum.java
+26-03-08.21:43:01.415 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\activity\model\valobj\GroupBuyActivityDiscountVO.java
+26-03-08.21:43:01.415 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\activity\model\valobj\SCSkuActivityVO.java
+26-03-08.21:43:01.415 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\activity\model\valobj\SkuVO.java
+26-03-08.21:43:01.415 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\activity\model\valobj\TagScopeEnumVO.java
+26-03-08.21:43:01.415 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\activity\model\valobj\TeamStatisticVO.java
+26-03-08.21:43:01.415 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\activity\service\discount\AbstractDiscountCalculateService.java
+26-03-08.21:43:01.415 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\activity\service\discount\IDiscountCalculateService.java
+26-03-08.21:43:01.415 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\activity\service\discount\impl\MJCalculateService.java
+26-03-08.21:43:01.415 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\activity\service\discount\impl\NCalculateService.java
+26-03-08.21:43:01.415 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\activity\service\discount\impl\ZJCalculateService.java
+26-03-08.21:43:01.415 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\activity\service\discount\impl\ZKCalculateService.java
+26-03-08.21:43:01.415 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\activity\service\IIndexGroupBuyMarketService.java
+26-03-08.21:43:01.415 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\activity\service\IndexGroupBuyMarketServiceImpl.java
+26-03-08.21:43:01.415 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\activity\service\package-info.java
+26-03-08.21:43:01.416 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\activity\service\trial\AbstractGroupBuyMarketSupport.java
+26-03-08.21:43:01.416 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\activity\service\trial\factory\DefaultActivityStrategyFactory.java
+26-03-08.21:43:01.416 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\activity\service\trial\node\EndNode.java
+26-03-08.21:43:01.416 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\activity\service\trial\node\ErrorNode.java
+26-03-08.21:43:01.416 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\activity\service\trial\node\MarketNode.java
+26-03-08.21:43:01.416 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\activity\service\trial\node\RootNode.java
+26-03-08.21:43:01.416 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\activity\service\trial\node\SwitchRoot.java
+26-03-08.21:43:01.416 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\activity\service\trial\node\TagNode.java
+26-03-08.21:43:01.416 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\activity\service\trial\thread\QueryGroupBuyActivityDiscountVOThreadTask.java
+26-03-08.21:43:01.416 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\activity\service\trial\thread\QuerySkuVOFromDBThreadTask.java
+26-03-08.21:43:01.417 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\tag\adapter\repository\ITagRepository.java
+26-03-08.21:43:01.417 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\tag\adapter\repository\package-info.java
+26-03-08.21:43:01.417 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\tag\model\entity\CrowdTagsJobEntity.java
+26-03-08.21:43:01.417 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\tag\model\valobj\package-info.java
+26-03-08.21:43:01.417 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\tag\service\ITagService.java
+26-03-08.21:43:01.417 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\tag\service\TagService.java
+26-03-08.21:43:01.418 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\trade\adapter\port\ITradePort.java
+26-03-08.21:43:01.418 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\trade\adapter\repository\ITradeRepository.java
+26-03-08.21:43:01.418 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\trade\model\aggregate\GroupBuyOrderAggregate.java
+26-03-08.21:43:01.418 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\trade\model\aggregate\GroupBuyTeamSettlementAggregate.java
+26-03-08.21:43:01.418 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\trade\model\entity\GroupBuyActivityEntity.java
+26-03-08.21:43:01.418 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\trade\model\entity\GroupBuyTeamEntity.java
+26-03-08.21:43:01.418 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\trade\model\entity\MarketPayOrderEntity.java
+26-03-08.21:43:01.418 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\trade\model\entity\NotifyTaskEntity.java
+26-03-08.21:43:01.419 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\trade\model\entity\PayActivityEntity.java
+26-03-08.21:43:01.419 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\trade\model\entity\PayDiscountEntity.java
+26-03-08.21:43:01.419 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\trade\model\entity\TradeLockCommandEntity.java
+26-03-08.21:43:01.419 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\trade\model\entity\TradeLockFilterBackEntity.java
+26-03-08.21:43:01.419 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\trade\model\entity\TradePaySettlementEntity.java
+26-03-08.21:43:01.419 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\trade\model\entity\TradePaySuccessEntity.java
+26-03-08.21:43:01.419 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\trade\model\entity\TradeSettlementRuleCommandEntity.java
+26-03-08.21:43:01.419 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\trade\model\entity\TradeSettlementRuleFilterBackEntity.java
+26-03-08.21:43:01.419 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\trade\model\entity\UserEntity.java
+26-03-08.21:43:01.419 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\trade\model\valobj\GroupBuyProgressVO.java
+26-03-08.21:43:01.419 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\trade\model\valobj\TradeOrderStatusEnumVO.java
+26-03-08.21:43:01.419 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\trade\service\ITradeLockOrderService.java
+26-03-08.21:43:01.419 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\trade\service\ITradeSettlementOrderService.java
+26-03-08.21:43:01.419 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\trade\service\lock\factory\TradeRuleFilterFactory.java
+26-03-08.21:43:01.419 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\trade\service\lock\filter\ActivityUsabilityRuleFilter.java
+26-03-08.21:43:01.419 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\trade\service\lock\filter\UserTaskLimitRuleFilter.java
+26-03-08.21:43:01.420 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\trade\service\lock\TradeLockOrderService.java
+26-03-08.21:43:01.420 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\trade\service\settlement\factory\TradeSettlementRuleFilterFactory.java
+26-03-08.21:43:01.420 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\trade\service\settlement\filter\EndRuleFilter.java
+26-03-08.21:43:01.420 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\trade\service\settlement\filter\OutTradeNoRuleFilter.java
+26-03-08.21:43:01.420 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\trade\service\settlement\filter\SCRuleFilter.java
+26-03-08.21:43:01.420 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\trade\service\settlement\filter\SettableRuleFilter.java
+26-03-08.21:43:01.420 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-domain\src\main\java\cn\bugstack\domain\trade\service\settlement\TradeSettlementOrderService.java
+26-03-08.21:43:01.420 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-infrastructure\pom.xml
+26-03-08.21:43:01.421 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-infrastructure\src\main\java\cn\bugstack\infrastructure\adapter\port\package-info.java
+26-03-08.21:43:01.421 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-infrastructure\src\main\java\cn\bugstack\infrastructure\adapter\port\TradePort.java
+26-03-08.21:43:01.421 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-infrastructure\src\main\java\cn\bugstack\infrastructure\adapter\repository\ActivityRepository.java
+26-03-08.21:43:01.421 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-infrastructure\src\main\java\cn\bugstack\infrastructure\adapter\repository\TagRepository.java
+26-03-08.21:43:01.422 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-infrastructure\src\main\java\cn\bugstack\infrastructure\adapter\repository\TradeRepository.java
+26-03-08.21:43:01.422 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-infrastructure\src\main\java\cn\bugstack\infrastructure\dao\ICrowdTagsDao.java
+26-03-08.21:43:01.422 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-infrastructure\src\main\java\cn\bugstack\infrastructure\dao\ICrowdTagsDetailDao.java
+26-03-08.21:43:01.422 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-infrastructure\src\main\java\cn\bugstack\infrastructure\dao\ICrowdTagsJobDao.java
+26-03-08.21:43:01.422 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-infrastructure\src\main\java\cn\bugstack\infrastructure\dao\IGroupBuyActivityDao.java
+26-03-08.21:43:01.422 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-infrastructure\src\main\java\cn\bugstack\infrastructure\dao\IGroupBuyDiscountDao.java
+26-03-08.21:43:01.422 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-infrastructure\src\main\java\cn\bugstack\infrastructure\dao\IGroupBuyOrderDao.java
+26-03-08.21:43:01.422 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-infrastructure\src\main\java\cn\bugstack\infrastructure\dao\IGroupBuyOrderListDao.java
+26-03-08.21:43:01.422 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-infrastructure\src\main\java\cn\bugstack\infrastructure\dao\INotifyTaskDao.java
+26-03-08.21:43:01.422 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-infrastructure\src\main\java\cn\bugstack\infrastructure\dao\ISCSkuActivityDao.java
+26-03-08.21:43:01.422 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-infrastructure\src\main\java\cn\bugstack\infrastructure\dao\ISkuDao.java
+26-03-08.21:43:01.422 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-infrastructure\src\main\java\cn\bugstack\infrastructure\dao\po\base\Page.java
+26-03-08.21:43:01.422 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-infrastructure\src\main\java\cn\bugstack\infrastructure\dao\po\CrowdTags.java
+26-03-08.21:43:01.422 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-infrastructure\src\main\java\cn\bugstack\infrastructure\dao\po\CrowdTagsDetail.java
+26-03-08.21:43:01.422 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-infrastructure\src\main\java\cn\bugstack\infrastructure\dao\po\CrowdTagsJob.java
+26-03-08.21:43:01.422 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-infrastructure\src\main\java\cn\bugstack\infrastructure\dao\po\GroupBuyActivity.java
+26-03-08.21:43:01.422 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-infrastructure\src\main\java\cn\bugstack\infrastructure\dao\po\GroupBuyDiscount.java
+26-03-08.21:43:01.422 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-infrastructure\src\main\java\cn\bugstack\infrastructure\dao\po\GroupBuyOrder.java
+26-03-08.21:43:01.422 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-infrastructure\src\main\java\cn\bugstack\infrastructure\dao\po\GroupBuyOrderList.java
+26-03-08.21:43:01.422 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-infrastructure\src\main\java\cn\bugstack\infrastructure\dao\po\NotifyTask.java
+26-03-08.21:43:01.422 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-infrastructure\src\main\java\cn\bugstack\infrastructure\dao\po\SCSkuActivity.java
+26-03-08.21:43:01.422 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-infrastructure\src\main\java\cn\bugstack\infrastructure\dao\po\Sku.java
+26-03-08.21:43:01.423 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-infrastructure\src\main\java\cn\bugstack\infrastructure\dcc\DCCService.java
+26-03-08.21:43:01.424 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-infrastructure\src\main\java\cn\bugstack\infrastructure\gateway\dto\package-info.java
+26-03-08.21:43:01.424 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-infrastructure\src\main\java\cn\bugstack\infrastructure\gateway\GroupBuyNotifyService.java
+26-03-08.21:43:01.424 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-infrastructure\src\main\java\cn\bugstack\infrastructure\gateway\package-info.java
+26-03-08.21:43:01.424 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-infrastructure\src\main\java\cn\bugstack\infrastructure\redis\IRedisService.java
+26-03-08.21:43:01.424 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-infrastructure\src\main\java\cn\bugstack\infrastructure\redis\RedissonService.java
+26-03-08.21:43:01.424 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-trigger\pom.xml
+26-03-08.21:43:01.425 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-trigger\src\main\java\cn\bugstack\trigger\http\DCCController.java
+26-03-08.21:43:01.425 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-trigger\src\main\java\cn\bugstack\trigger\http\MarketIndexController.java
+26-03-08.21:43:01.425 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-trigger\src\main\java\cn\bugstack\trigger\http\MarketTradeController.java
+26-03-08.21:43:01.425 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-trigger\src\main\java\cn\bugstack\trigger\http\TestApiClientController.java
+26-03-08.21:43:01.425 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-trigger\src\main\java\cn\bugstack\trigger\job\package-info.java
+26-03-08.21:43:01.426 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-trigger\src\main\java\cn\bugstack\trigger\listener\package-info.java
+26-03-08.21:43:01.426 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-types\pom.xml
+26-03-08.21:43:01.427 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-types\src\main\java\cn\bugstack\types\annotations\DCCValue.java
+26-03-08.21:43:01.427 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-types\src\main\java\cn\bugstack\types\common\Constants.java
+26-03-08.21:43:01.427 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-types\src\main\java\cn\bugstack\types\design\framework\link\model1\AbstractLogicLink.java
+26-03-08.21:43:01.427 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-types\src\main\java\cn\bugstack\types\design\framework\link\model1\ILogicChainArmory.java
+26-03-08.21:43:01.427 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-types\src\main\java\cn\bugstack\types\design\framework\link\model1\ILogicLink.java
+26-03-08.21:43:01.428 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-types\src\main\java\cn\bugstack\types\design\framework\link\model2\chain\BusinessLinkedList.java
+26-03-08.21:43:01.428 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-types\src\main\java\cn\bugstack\types\design\framework\link\model2\chain\ILink.java
+26-03-08.21:43:01.428 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-types\src\main\java\cn\bugstack\types\design\framework\link\model2\chain\LinkedList.java
+26-03-08.21:43:01.428 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-types\src\main\java\cn\bugstack\types\design\framework\link\model2\handler\ILogicHandler.java
+26-03-08.21:43:01.428 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-types\src\main\java\cn\bugstack\types\design\framework\link\model2\LinkArmory.java
+26-03-08.21:43:01.428 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-types\src\main\java\cn\bugstack\types\design\framework\tree\AbstractMultiThreadStrategyRouter.java
+26-03-08.21:43:01.428 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-types\src\main\java\cn\bugstack\types\design\framework\tree\AbstractStrategyRouter.java
+26-03-08.21:43:01.428 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-types\src\main\java\cn\bugstack\types\design\framework\tree\StrategyHandler.java
+26-03-08.21:43:01.428 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-types\src\main\java\cn\bugstack\types\design\framework\tree\StrategyMapper.java
+26-03-08.21:43:01.428 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-types\src\main\java\cn\bugstack\types\enums\ActivityStatusEnumVO.java
+26-03-08.21:43:01.428 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-types\src\main\java\cn\bugstack\types\enums\GroupBuyOrderEnumVO.java
+26-03-08.21:43:01.428 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-types\src\main\java\cn\bugstack\types\enums\NotifyTaskHTTPEnumVO.java
+26-03-08.21:43:01.428 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-types\src\main\java\cn\bugstack\types\enums\ResponseCode.java
+26-03-08.21:43:01.428 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\group_buy_market_ZFHZZ-types\src\main\java\cn\bugstack\types\exception\AppException.java
+26-03-08.21:43:01.429 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\pom.xml
+26-03-08.21:43:01.429 [main            ] INFO  JGitTest               - 文件路径:E:\clone_path\README.md
+26-03-08.21:43:01.471 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
+26-03-08.21:43:01.473 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.
