@@ -10,13 +10,13 @@
     <packaging>pom</packaging>
     <modules>
         <module>xfg-dev-tech-api</module>
-        <module>xfg-dev-tech-trigger</module>
         <module>xfg-dev-tech-app</module>
+        <module>xfg-dev-tech-trigger</module>
     </modules>
 
     <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring-ai.version>0.8.1</spring-ai.version>
     </properties>

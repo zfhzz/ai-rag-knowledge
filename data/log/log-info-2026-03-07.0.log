@@ -1,0 +1,716 @@
+26-03-07.00:03:50.753 [http-nio-8090-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+26-03-07.00:03:50.754 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+26-03-07.00:03:50.754 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Completed initialization in 0 ms
+26-03-07.00:07:00.543 [main            ] INFO  Application            - Starting Application using Java 17.0.18 with PID 32984 (E:\java_project\ai-rag-knowledge\xfg-dev-tech-app\target\classes started by ZFHZZ in E:\java_project\ai-rag-knowledge)
+26-03-07.00:07:00.544 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+26-03-07.00:07:00.856 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+26-03-07.00:07:00.857 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+26-03-07.00:07:00.875 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+26-03-07.00:07:01.090 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+26-03-07.00:07:01.097 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+26-03-07.00:07:01.097 [main            ] INFO  StandardService        - Starting service [Tomcat]
+26-03-07.00:07:01.098 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+26-03-07.00:07:01.129 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+26-03-07.00:07:01.130 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 556 ms
+26-03-07.00:07:01.395 [main            ] INFO  Version                - Redisson 3.44.0
+26-03-07.00:07:01.568 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-07.00:07:01.580 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-07.00:07:01.884 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+26-03-07.00:07:01.889 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8090 (http) with context path ''
+26-03-07.00:07:01.893 [main            ] INFO  Application            - Started Application in 1.644 seconds (process running for 2.048)
+26-03-07.00:14:12.063 [http-nio-8090-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+26-03-07.00:14:12.064 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+26-03-07.00:14:12.064 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Completed initialization in 0 ms
+26-03-07.00:17:08.913 [main            ] INFO  Application            - Starting Application using Java 17.0.18 with PID 11492 (E:\java_project\ai-rag-knowledge\xfg-dev-tech-app\target\classes started by ZFHZZ in E:\java_project\ai-rag-knowledge)
+26-03-07.00:17:08.914 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+26-03-07.00:17:09.237 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+26-03-07.00:17:09.239 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+26-03-07.00:17:09.253 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+26-03-07.00:17:09.485 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+26-03-07.00:17:09.490 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+26-03-07.00:17:09.491 [main            ] INFO  StandardService        - Starting service [Tomcat]
+26-03-07.00:17:09.491 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+26-03-07.00:17:09.523 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+26-03-07.00:17:09.523 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 584 ms
+26-03-07.00:17:09.799 [main            ] INFO  Version                - Redisson 3.44.0
+26-03-07.00:17:09.958 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-07.00:17:09.970 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-07.00:17:10.294 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+26-03-07.00:17:10.301 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8090 (http) with context path ''
+26-03-07.00:17:10.305 [main            ] INFO  Application            - Started Application in 1.679 seconds (process running for 2.063)
+26-03-07.00:19:43.047 [main            ] INFO  Application            - Starting Application using Java 17.0.18 with PID 9756 (E:\java_project\ai-rag-knowledge\xfg-dev-tech-app\target\classes started by ZFHZZ in E:\java_project\ai-rag-knowledge)
+26-03-07.00:19:43.049 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+26-03-07.00:19:43.368 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+26-03-07.00:19:43.369 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+26-03-07.00:19:43.385 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+26-03-07.00:19:43.606 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+26-03-07.00:19:43.611 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+26-03-07.00:19:43.612 [main            ] INFO  StandardService        - Starting service [Tomcat]
+26-03-07.00:19:43.612 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+26-03-07.00:19:43.643 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+26-03-07.00:19:43.644 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 567 ms
+26-03-07.00:19:43.894 [main            ] INFO  Version                - Redisson 3.44.0
+26-03-07.00:19:44.065 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-07.00:19:44.078 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-07.00:19:44.386 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+26-03-07.00:19:44.392 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8090 (http) with context path ''
+26-03-07.00:19:44.396 [main            ] INFO  Application            - Started Application in 1.642 seconds (process running for 2.029)
+26-03-07.00:24:03.501 [main            ] INFO  Application            - Starting Application using Java 17.0.18 with PID 28276 (E:\java_project\ai-rag-knowledge\xfg-dev-tech-app\target\classes started by ZFHZZ in E:\java_project\ai-rag-knowledge)
+26-03-07.00:24:03.501 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+26-03-07.00:24:03.830 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+26-03-07.00:24:03.830 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+26-03-07.00:24:03.847 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+26-03-07.00:24:04.116 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+26-03-07.00:24:04.123 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+26-03-07.00:24:04.124 [main            ] INFO  StandardService        - Starting service [Tomcat]
+26-03-07.00:24:04.124 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+26-03-07.00:24:04.184 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+26-03-07.00:24:04.185 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 651 ms
+26-03-07.00:24:04.547 [main            ] INFO  Version                - Redisson 3.44.0
+26-03-07.00:24:04.716 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-07.00:24:04.729 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-07.00:24:05.063 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+26-03-07.00:24:05.074 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8090 (http) with context path ''
+26-03-07.00:24:05.078 [main            ] INFO  Application            - Started Application in 1.919 seconds (process running for 2.691)
+26-03-07.00:44:22.624 [http-nio-8090-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+26-03-07.00:44:22.624 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+26-03-07.00:44:22.624 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Completed initialization in 0 ms
+26-03-07.00:45:36.029 [main            ] INFO  Application            - Starting Application using Java 17.0.18 with PID 28968 (E:\java_project\ai-rag-knowledge\xfg-dev-tech-app\target\classes started by ZFHZZ in E:\java_project\ai-rag-knowledge)
+26-03-07.00:45:36.030 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+26-03-07.00:45:36.358 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+26-03-07.00:45:36.359 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+26-03-07.00:45:36.377 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+26-03-07.00:45:36.620 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+26-03-07.00:45:36.626 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+26-03-07.00:45:36.627 [main            ] INFO  StandardService        - Starting service [Tomcat]
+26-03-07.00:45:36.627 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+26-03-07.00:45:36.662 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+26-03-07.00:45:36.662 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 605 ms
+26-03-07.00:45:36.954 [main            ] INFO  Version                - Redisson 3.44.0
+26-03-07.00:45:37.110 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-07.00:45:37.123 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-07.00:45:37.448 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+26-03-07.00:45:37.453 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8090 (http) with context path ''
+26-03-07.00:45:37.457 [main            ] INFO  Application            - Started Application in 1.858 seconds (process running for 2.502)
+26-03-07.00:45:44.894 [http-nio-8090-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+26-03-07.00:45:44.894 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+26-03-07.00:45:44.895 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Completed initialization in 0 ms
+26-03-07.00:47:30.881 [main            ] INFO  Application            - Starting Application using Java 17.0.18 with PID 4616 (E:\java_project\ai-rag-knowledge\xfg-dev-tech-app\target\classes started by ZFHZZ in E:\java_project\ai-rag-knowledge)
+26-03-07.00:47:30.882 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+26-03-07.00:47:31.182 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+26-03-07.00:47:31.183 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+26-03-07.00:47:31.203 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+26-03-07.00:47:31.426 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+26-03-07.00:47:31.428 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+26-03-07.00:47:31.428 [main            ] INFO  StandardService        - Starting service [Tomcat]
+26-03-07.00:47:31.428 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+26-03-07.00:47:31.462 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+26-03-07.00:47:31.462 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 555 ms
+26-03-07.00:47:31.715 [main            ] INFO  Version                - Redisson 3.44.0
+26-03-07.00:47:31.867 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-07.00:47:31.879 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-07.00:47:32.174 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+26-03-07.00:47:32.179 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8090 (http) with context path ''
+26-03-07.00:47:32.184 [main            ] INFO  Application            - Started Application in 1.612 seconds (process running for 1.974)
+26-03-07.00:47:43.763 [http-nio-8090-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+26-03-07.00:47:43.763 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+26-03-07.00:47:43.763 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Completed initialization in 0 ms
+26-03-07.00:48:13.660 [http-nio-8090-exec-7] INFO  OllamaController       - 回答问题ing
+26-03-07.16:49:31.517 [main            ] INFO  Application            - Starting Application using Java 17.0.18 with PID 4956 (E:\java_project\ai-rag-knowledge\xfg-dev-tech-app\target\classes started by ZFHZZ in E:\java_project\ai-rag-knowledge)
+26-03-07.16:49:31.518 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+26-03-07.16:49:31.997 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+26-03-07.16:49:31.999 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+26-03-07.16:49:32.021 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+26-03-07.16:49:32.322 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+26-03-07.16:49:32.331 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+26-03-07.16:49:32.332 [main            ] INFO  StandardService        - Starting service [Tomcat]
+26-03-07.16:49:32.332 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+26-03-07.16:49:32.373 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+26-03-07.16:49:32.373 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 825 ms
+26-03-07.16:49:32.822 [main            ] INFO  Version                - Redisson 3.44.0
+26-03-07.16:50:18.477 [main            ] INFO  Application            - Starting Application using Java 17.0.18 with PID 20968 (E:\java_project\ai-rag-knowledge\xfg-dev-tech-app\target\classes started by ZFHZZ in E:\java_project\ai-rag-knowledge)
+26-03-07.16:50:18.479 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+26-03-07.16:50:18.820 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+26-03-07.16:50:18.822 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+26-03-07.16:50:18.839 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+26-03-07.16:50:19.084 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+26-03-07.16:50:19.090 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+26-03-07.16:50:19.092 [main            ] INFO  StandardService        - Starting service [Tomcat]
+26-03-07.16:50:19.092 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+26-03-07.16:50:19.134 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+26-03-07.16:50:19.134 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 627 ms
+26-03-07.16:50:19.587 [main            ] INFO  Version                - Redisson 3.44.0
+26-03-07.16:50:19.788 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-07.16:50:19.854 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-07.16:50:20.393 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+26-03-07.16:50:20.400 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8090 (http) with context path ''
+26-03-07.16:50:20.405 [main            ] INFO  Application            - Started Application in 2.296 seconds (process running for 2.875)
+26-03-07.16:59:19.301 [main            ] INFO  Application            - Starting Application using Java 17.0.18 with PID 33084 (E:\java_project\ai-rag-knowledge\xfg-dev-tech-app\target\classes started by ZFHZZ in E:\java_project\ai-rag-knowledge)
+26-03-07.16:59:19.302 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+26-03-07.16:59:19.615 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+26-03-07.16:59:19.616 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+26-03-07.16:59:19.633 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+26-03-07.16:59:19.881 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+26-03-07.16:59:19.886 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+26-03-07.16:59:19.888 [main            ] INFO  StandardService        - Starting service [Tomcat]
+26-03-07.16:59:19.888 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+26-03-07.16:59:19.923 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+26-03-07.16:59:19.924 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 598 ms
+26-03-07.16:59:20.213 [main            ] INFO  Version                - Redisson 3.44.0
+26-03-07.16:59:20.379 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-07.16:59:20.392 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-07.16:59:20.718 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+26-03-07.16:59:20.724 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8090 (http) with context path ''
+26-03-07.16:59:20.730 [main            ] INFO  Application            - Started Application in 1.731 seconds (process running for 2.154)
+26-03-07.16:59:35.760 [http-nio-8090-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+26-03-07.16:59:35.760 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+26-03-07.16:59:35.761 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Completed initialization in 1 ms
+26-03-07.16:59:35.936 [http-nio-8090-exec-2] ERROR [dispatcherServlet]    - Servlet.service() for servlet [dispatcherServlet] threw exception
+org.springframework.web.reactive.function.client.WebClientResponseException$NotFound: 404 Not Found from POST http://192.168.3.245:11434/api/chat
+	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:310)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ 404 NOT_FOUND from POST http://192.168.3.245:11434/api/chat [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:310)
+		at org.springframework.web.reactive.function.client.DefaultClientResponse.lambda$createException$1(DefaultClientResponse.java:214)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:106)
+		at reactor.core.publisher.FluxOnErrorReturn$ReturnSubscriber.onNext(FluxOnErrorReturn.java:162)
+		at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onNext(FluxDefaultIfEmpty.java:122)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:129)
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:299)
+		at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:337)
+		at reactor.core.publisher.Operators$BaseFluxToMonoOperator.completePossiblyEmpty(Operators.java:2097)
+		at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:145)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260)
+		at reactor.core.publisher.FluxPublish$PublishSubscriber.checkTerminated(FluxPublish.java:634)
+		at reactor.core.publisher.FluxPublish$PublishSubscriber.drain(FluxPublish.java:494)
+		at reactor.core.publisher.FluxPublish$PublishSubscriber.onComplete(FluxPublish.java:355)
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onComplete(FluxContextWrite.java:126)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onComplete(FluxMapFuseable.java:350)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drainAsync(FluxFlattenIterable.java:371)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drain(FluxFlattenIterable.java:724)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.onComplete(FluxFlattenIterable.java:273)
+		at reactor.adapter.JdkFlowAdapter$SubscriberToRS.onComplete(JdkFlowAdapter.java:160)
+		at java.net.http/jdk.internal.net.http.ResponseSubscribers$PublishingBodySubscriber.complete(ResponseSubscribers.java:950)
+		at java.net.http/jdk.internal.net.http.ResponseSubscribers$PublishingBodySubscriber.lambda$new$1(ResponseSubscribers.java:881)
+		at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+		at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+		at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147)
+		at java.net.http/jdk.internal.net.http.ResponseSubscribers$PublishingBodySubscriber.lambda$subscribe$3(ResponseSubscribers.java:978)
+		at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:757)
+		at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+		at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+		at java.net.http/jdk.internal.net.http.ResponseSubscribers$PublishingBodySubscriber.subscribe(ResponseSubscribers.java:974)
+		at reactor.adapter.JdkFlowAdapter$FlowPublisherAsFlux.subscribe(JdkFlowAdapter.java:68)
+		at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:68)
+		at reactor.core.publisher.FluxPublish.connect(FluxPublish.java:106)
+		at reactor.core.publisher.FluxAutoConnect.subscribe(FluxAutoConnect.java:62)
+		at reactor.core.publisher.Flux.subscribe(Flux.java:8836)
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onNext(MonoFlatMapMany.java:196)
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107)
+		at reactor.core.publisher.FluxDoFinally$DoFinallySubscriber.onNext(FluxDoFinally.java:113)
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onNext(MonoPeekTerminal.java:180)
+		at reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onNext(FluxPeekFuseable.java:854)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:122)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.complete(MonoIgnoreThen.java:294)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onNext(MonoIgnoreThen.java:188)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:122)
+		at reactor.core.publisher.MonoCompletionStage$MonoCompletionStageSubscription.apply(MonoCompletionStage.java:121)
+		at reactor.core.publisher.MonoCompletionStage$MonoCompletionStageSubscription.apply(MonoCompletionStage.java:67)
+		at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+		at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+		at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+		at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+		at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:844)
+		at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+		at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+		at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+		at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+		at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+		at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+26-03-07.16:59:35.938 [http-nio-8090-exec-2] ERROR [dispatcherServlet]    - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.reactive.function.client.WebClientResponseException$NotFound: 404 Not Found from POST http://192.168.3.245:11434/api/chat] with root cause
+org.springframework.web.reactive.function.client.WebClientResponseException$NotFound: 404 Not Found from POST http://192.168.3.245:11434/api/chat
+	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:310)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ 404 NOT_FOUND from POST http://192.168.3.245:11434/api/chat [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:310)
+		at org.springframework.web.reactive.function.client.DefaultClientResponse.lambda$createException$1(DefaultClientResponse.java:214)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:106)
+		at reactor.core.publisher.FluxOnErrorReturn$ReturnSubscriber.onNext(FluxOnErrorReturn.java:162)
+		at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onNext(FluxDefaultIfEmpty.java:122)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:129)
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:299)
+		at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:337)
+		at reactor.core.publisher.Operators$BaseFluxToMonoOperator.completePossiblyEmpty(Operators.java:2097)
+		at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:145)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260)
+		at reactor.core.publisher.FluxPublish$PublishSubscriber.checkTerminated(FluxPublish.java:634)
+		at reactor.core.publisher.FluxPublish$PublishSubscriber.drain(FluxPublish.java:494)
+		at reactor.core.publisher.FluxPublish$PublishSubscriber.onComplete(FluxPublish.java:355)
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onComplete(FluxContextWrite.java:126)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onComplete(FluxMapFuseable.java:350)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drainAsync(FluxFlattenIterable.java:371)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drain(FluxFlattenIterable.java:724)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.onComplete(FluxFlattenIterable.java:273)
+		at reactor.adapter.JdkFlowAdapter$SubscriberToRS.onComplete(JdkFlowAdapter.java:160)
+		at java.net.http/jdk.internal.net.http.ResponseSubscribers$PublishingBodySubscriber.complete(ResponseSubscribers.java:950)
+		at java.net.http/jdk.internal.net.http.ResponseSubscribers$PublishingBodySubscriber.lambda$new$1(ResponseSubscribers.java:881)
+		at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+		at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+		at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147)
+		at java.net.http/jdk.internal.net.http.ResponseSubscribers$PublishingBodySubscriber.lambda$subscribe$3(ResponseSubscribers.java:978)
+		at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:757)
+		at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+		at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+		at java.net.http/jdk.internal.net.http.ResponseSubscribers$PublishingBodySubscriber.subscribe(ResponseSubscribers.java:974)
+		at reactor.adapter.JdkFlowAdapter$FlowPublisherAsFlux.subscribe(JdkFlowAdapter.java:68)
+		at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:68)
+		at reactor.core.publisher.FluxPublish.connect(FluxPublish.java:106)
+		at reactor.core.publisher.FluxAutoConnect.subscribe(FluxAutoConnect.java:62)
+		at reactor.core.publisher.Flux.subscribe(Flux.java:8836)
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onNext(MonoFlatMapMany.java:196)
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107)
+		at reactor.core.publisher.FluxDoFinally$DoFinallySubscriber.onNext(FluxDoFinally.java:113)
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onNext(MonoPeekTerminal.java:180)
+		at reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onNext(FluxPeekFuseable.java:854)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:122)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:200)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.complete(MonoIgnoreThen.java:294)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onNext(MonoIgnoreThen.java:188)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:122)
+		at reactor.core.publisher.MonoCompletionStage$MonoCompletionStageSubscription.apply(MonoCompletionStage.java:121)
+		at reactor.core.publisher.MonoCompletionStage$MonoCompletionStageSubscription.apply(MonoCompletionStage.java:67)
+		at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+		at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+		at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+		at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+		at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:844)
+		at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+		at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+		at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+		at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+		at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+		at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+26-03-07.17:00:07.221 [http-nio-8090-exec-3] INFO  OllamaController       - 回答问题ing
+26-03-07.17:00:07.245 [http-nio-8090-exec-3] WARN  OllamaApi              - [404] Not Found - {"error":"model \"deepseek-r1:1.5b\" not found, try pulling it first"}
+26-03-07.17:00:07.245 [http-nio-8090-exec-3] ERROR [dispatcherServlet]    - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: [404] Not Found - {"error":"model \"deepseek-r1:1.5b\" not found, try pulling it first"}] with root cause
+java.lang.RuntimeException: [404] Not Found - {"error":"model \"deepseek-r1:1.5b\" not found, try pulling it first"}
+	at org.springframework.ai.ollama.api.OllamaApi$OllamaResponseErrorHandler.handleError(OllamaApi.java:78)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.StatusHandler.lambda$fromErrorHandler$1(StatusHandler.java:71)
+	at org.springframework.web.client.StatusHandler.handle(StatusHandler.java:146)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.applyStatusHandlers(DefaultRestClient.java:680)
+	at org.springframework.web.client.DefaultRestClient.readWithMessageConverters(DefaultRestClient.java:200)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.readBody(DefaultRestClient.java:667)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.body(DefaultRestClient.java:613)
+	at org.springframework.ai.ollama.api.OllamaApi.chat(OllamaApi.java:520)
+	at org.springframework.ai.ollama.OllamaChatClient.call(OllamaChatClient.java:85)
+	at cn.bugstack.xfg.dev.tech.trigger.http.OllamaController.generate(OllamaController.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:259)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:192)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:920)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+26-03-07.17:03:27.855 [http-nio-8090-exec-7] INFO  OllamaController       - 回答问题ing
+26-03-07.17:03:27.863 [http-nio-8090-exec-7] WARN  OllamaApi              - [404] Not Found - {"error":"model \"deepseek-r1:1.5b\" not found, try pulling it first"}
+26-03-07.17:03:27.864 [http-nio-8090-exec-7] ERROR [dispatcherServlet]    - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: [404] Not Found - {"error":"model \"deepseek-r1:1.5b\" not found, try pulling it first"}] with root cause
+java.lang.RuntimeException: [404] Not Found - {"error":"model \"deepseek-r1:1.5b\" not found, try pulling it first"}
+	at org.springframework.ai.ollama.api.OllamaApi$OllamaResponseErrorHandler.handleError(OllamaApi.java:78)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.StatusHandler.lambda$fromErrorHandler$1(StatusHandler.java:71)
+	at org.springframework.web.client.StatusHandler.handle(StatusHandler.java:146)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.applyStatusHandlers(DefaultRestClient.java:680)
+	at org.springframework.web.client.DefaultRestClient.readWithMessageConverters(DefaultRestClient.java:200)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.readBody(DefaultRestClient.java:667)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.body(DefaultRestClient.java:613)
+	at org.springframework.ai.ollama.api.OllamaApi.chat(OllamaApi.java:520)
+	at org.springframework.ai.ollama.OllamaChatClient.call(OllamaChatClient.java:85)
+	at cn.bugstack.xfg.dev.tech.trigger.http.OllamaController.generate(OllamaController.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:259)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:192)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:920)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+26-03-07.17:03:28.452 [http-nio-8090-exec-4] INFO  OllamaController       - 回答问题ing
+26-03-07.17:03:28.459 [http-nio-8090-exec-4] WARN  OllamaApi              - [404] Not Found - {"error":"model \"deepseek-r1:1.5b\" not found, try pulling it first"}
+26-03-07.17:03:28.459 [http-nio-8090-exec-4] ERROR [dispatcherServlet]    - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: [404] Not Found - {"error":"model \"deepseek-r1:1.5b\" not found, try pulling it first"}] with root cause
+java.lang.RuntimeException: [404] Not Found - {"error":"model \"deepseek-r1:1.5b\" not found, try pulling it first"}
+	at org.springframework.ai.ollama.api.OllamaApi$OllamaResponseErrorHandler.handleError(OllamaApi.java:78)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.StatusHandler.lambda$fromErrorHandler$1(StatusHandler.java:71)
+	at org.springframework.web.client.StatusHandler.handle(StatusHandler.java:146)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.applyStatusHandlers(DefaultRestClient.java:680)
+	at org.springframework.web.client.DefaultRestClient.readWithMessageConverters(DefaultRestClient.java:200)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.readBody(DefaultRestClient.java:667)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.body(DefaultRestClient.java:613)
+	at org.springframework.ai.ollama.api.OllamaApi.chat(OllamaApi.java:520)
+	at org.springframework.ai.ollama.OllamaChatClient.call(OllamaChatClient.java:85)
+	at cn.bugstack.xfg.dev.tech.trigger.http.OllamaController.generate(OllamaController.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:259)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:192)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:920)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+26-03-07.17:04:26.996 [main            ] INFO  Application            - Starting Application using Java 17.0.18 with PID 32048 (E:\java_project\ai-rag-knowledge\xfg-dev-tech-app\target\classes started by ZFHZZ in E:\java_project\ai-rag-knowledge)
+26-03-07.17:04:26.997 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+26-03-07.17:04:27.315 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+26-03-07.17:04:27.317 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+26-03-07.17:04:27.334 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+26-03-07.17:04:27.575 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+26-03-07.17:04:27.579 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+26-03-07.17:04:27.582 [main            ] INFO  StandardService        - Starting service [Tomcat]
+26-03-07.17:04:27.582 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+26-03-07.17:04:27.614 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+26-03-07.17:04:27.614 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 591 ms
+26-03-07.17:04:27.898 [main            ] INFO  Version                - Redisson 3.44.0
+26-03-07.17:04:28.070 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-07.17:04:28.087 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-07.17:04:28.434 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+26-03-07.17:04:28.440 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8090 (http) with context path ''
+26-03-07.17:04:28.444 [main            ] INFO  Application            - Started Application in 1.75 seconds (process running for 2.159)
+26-03-07.17:04:37.337 [http-nio-8090-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+26-03-07.17:04:37.338 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+26-03-07.17:04:37.338 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Completed initialization in 0 ms
+26-03-07.17:04:37.357 [http-nio-8090-exec-1] INFO  OllamaController       - 回答问题ing
+26-03-07.17:04:37.449 [http-nio-8090-exec-1] WARN  OllamaApi              - [404] Not Found - {"error":"model \"deepseek-r1:1.5b\" not found, try pulling it first"}
+26-03-07.17:04:37.451 [http-nio-8090-exec-1] ERROR [dispatcherServlet]    - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: [404] Not Found - {"error":"model \"deepseek-r1:1.5b\" not found, try pulling it first"}] with root cause
+java.lang.RuntimeException: [404] Not Found - {"error":"model \"deepseek-r1:1.5b\" not found, try pulling it first"}
+	at org.springframework.ai.ollama.api.OllamaApi$OllamaResponseErrorHandler.handleError(OllamaApi.java:78)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.StatusHandler.lambda$fromErrorHandler$1(StatusHandler.java:71)
+	at org.springframework.web.client.StatusHandler.handle(StatusHandler.java:146)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.applyStatusHandlers(DefaultRestClient.java:680)
+	at org.springframework.web.client.DefaultRestClient.readWithMessageConverters(DefaultRestClient.java:200)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.readBody(DefaultRestClient.java:667)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.body(DefaultRestClient.java:613)
+	at org.springframework.ai.ollama.api.OllamaApi.chat(OllamaApi.java:520)
+	at org.springframework.ai.ollama.OllamaChatClient.call(OllamaChatClient.java:85)
+	at cn.bugstack.xfg.dev.tech.trigger.http.OllamaController.generate(OllamaController.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:259)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:192)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:920)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+26-03-07.17:42:16.279 [main            ] INFO  Application            - Starting Application using Java 17.0.18 with PID 4828 (E:\java_project\ai-rag-knowledge\xfg-dev-tech-app\target\classes started by ZFHZZ in E:\java_project\ai-rag-knowledge)
+26-03-07.17:42:16.280 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+26-03-07.17:42:16.615 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+26-03-07.17:42:16.616 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+26-03-07.17:42:16.633 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+26-03-07.17:42:16.886 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+26-03-07.17:42:16.892 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+26-03-07.17:42:16.893 [main            ] INFO  StandardService        - Starting service [Tomcat]
+26-03-07.17:42:16.893 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+26-03-07.17:42:16.925 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+26-03-07.17:42:16.925 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 618 ms
+26-03-07.17:42:17.229 [main            ] INFO  Version                - Redisson 3.44.0
+26-03-07.17:42:17.432 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-07.17:42:17.451 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-07.17:42:17.837 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+26-03-07.17:42:17.844 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8090 (http) with context path ''
+26-03-07.17:42:17.849 [main            ] INFO  Application            - Started Application in 1.909 seconds (process running for 2.406)
+26-03-07.17:42:20.904 [http-nio-8090-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+26-03-07.17:42:20.904 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+26-03-07.17:42:20.905 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Completed initialization in 1 ms
+26-03-07.17:42:20.924 [http-nio-8090-exec-1] INFO  OllamaController       - 回答问题ing
+26-03-07.17:42:37.163 [http-nio-8090-exec-3] INFO  OllamaController       - 回答问题ing
+26-03-07.17:49:57.428 [main            ] INFO  Application            - Starting Application using Java 17.0.18 with PID 25300 (E:\java_project\ai-rag-knowledge\xfg-dev-tech-app\target\classes started by ZFHZZ in E:\java_project\ai-rag-knowledge)
+26-03-07.17:49:57.429 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+26-03-07.17:49:57.823 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+26-03-07.17:49:57.826 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+26-03-07.17:49:57.848 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+26-03-07.17:49:58.129 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+26-03-07.17:49:58.136 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+26-03-07.17:49:58.137 [main            ] INFO  StandardService        - Starting service [Tomcat]
+26-03-07.17:49:58.137 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+26-03-07.17:49:58.178 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+26-03-07.17:49:58.179 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 718 ms
+26-03-07.17:49:58.525 [main            ] INFO  Version                - Redisson 3.44.0
+26-03-07.17:49:58.713 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-07.17:49:58.728 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-07.17:49:59.141 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+26-03-07.17:49:59.149 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8090 (http) with context path ''
+26-03-07.17:49:59.153 [main            ] INFO  Application            - Started Application in 2.083 seconds (process running for 2.558)
+26-03-07.17:50:26.695 [http-nio-8090-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+26-03-07.17:50:26.695 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+26-03-07.17:50:26.696 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Completed initialization in 1 ms
+26-03-07.17:50:56.801 [main            ] INFO  Application            - Starting Application using Java 17.0.18 with PID 33356 (E:\java_project\ai-rag-knowledge\xfg-dev-tech-app\target\classes started by ZFHZZ in E:\java_project\ai-rag-knowledge)
+26-03-07.17:50:56.803 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+26-03-07.17:50:57.120 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+26-03-07.17:50:57.121 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+26-03-07.17:50:57.142 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+26-03-07.17:50:57.380 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+26-03-07.17:50:57.386 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+26-03-07.17:50:57.387 [main            ] INFO  StandardService        - Starting service [Tomcat]
+26-03-07.17:50:57.387 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+26-03-07.17:50:57.422 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+26-03-07.17:50:57.422 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 593 ms
+26-03-07.17:50:57.711 [main            ] INFO  Version                - Redisson 3.44.0
+26-03-07.17:50:57.880 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-07.17:50:57.894 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-07.17:50:58.229 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+26-03-07.17:50:58.235 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8090 (http) with context path ''
+26-03-07.17:50:58.240 [main            ] INFO  Application            - Started Application in 1.739 seconds (process running for 2.09)
+26-03-07.17:51:09.077 [http-nio-8090-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+26-03-07.17:51:09.077 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+26-03-07.17:51:09.078 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Completed initialization in 1 ms
+26-03-07.17:51:09.098 [http-nio-8090-exec-1] INFO  OllamaController       - 回答问题ing
+26-03-07.17:53:04.488 [main            ] INFO  Application            - Starting Application using Java 17.0.18 with PID 30352 (E:\java_project\ai-rag-knowledge\xfg-dev-tech-app\target\classes started by ZFHZZ in E:\java_project\ai-rag-knowledge)
+26-03-07.17:53:04.488 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+26-03-07.17:53:04.806 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+26-03-07.17:53:04.807 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+26-03-07.17:53:04.826 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+26-03-07.17:53:05.066 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+26-03-07.17:53:05.070 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+26-03-07.17:53:05.071 [main            ] INFO  StandardService        - Starting service [Tomcat]
+26-03-07.17:53:05.071 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+26-03-07.17:53:05.106 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+26-03-07.17:53:05.107 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 593 ms
+26-03-07.17:53:05.398 [main            ] INFO  Version                - Redisson 3.44.0
+26-03-07.17:53:05.565 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-07.17:53:05.579 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-07.17:53:05.923 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+26-03-07.17:53:05.930 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8090 (http) with context path ''
+26-03-07.17:53:05.935 [main            ] INFO  Application            - Started Application in 1.727 seconds (process running for 2.095)
+26-03-07.17:53:20.984 [http-nio-8090-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+26-03-07.17:53:20.985 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+26-03-07.17:53:20.986 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Completed initialization in 0 ms
+26-03-07.17:53:21.005 [http-nio-8090-exec-1] INFO  OllamaController       - 回答问题ing(流式)
+26-03-07.17:55:31.556 [http-nio-8090-exec-4] INFO  OllamaController       - 回答问题ing(流式)
+26-03-07.17:56:34.277 [http-nio-8090-exec-6] INFO  OllamaController       - 回答问题ing(流式)
+26-03-07.17:58:11.447 [main            ] INFO  Application            - Starting Application using Java 17.0.18 with PID 14880 (E:\java_project\ai-rag-knowledge\xfg-dev-tech-app\target\classes started by ZFHZZ in E:\java_project\ai-rag-knowledge)
+26-03-07.17:58:11.448 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+26-03-07.17:58:11.780 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+26-03-07.17:58:11.782 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+26-03-07.17:58:11.797 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+26-03-07.17:58:12.039 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+26-03-07.17:58:12.047 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+26-03-07.17:58:12.047 [main            ] INFO  StandardService        - Starting service [Tomcat]
+26-03-07.17:58:12.048 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+26-03-07.17:58:12.084 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+26-03-07.17:58:12.084 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 611 ms
+26-03-07.17:58:12.371 [main            ] INFO  Version                - Redisson 3.44.0
+26-03-07.17:58:12.541 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-07.17:58:12.580 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-07.17:58:12.918 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+26-03-07.17:58:12.924 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8090 (http) with context path ''
+26-03-07.17:58:12.930 [main            ] INFO  Application            - Started Application in 1.774 seconds (process running for 2.143)
+26-03-07.17:58:23.791 [http-nio-8090-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+26-03-07.17:58:23.792 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+26-03-07.17:58:23.793 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Completed initialization in 1 ms
+26-03-07.17:58:23.844 [http-nio-8090-exec-1] INFO  OllamaController       - 回答问题ing(流式)
+26-03-07.17:58:39.046 [http-nio-8090-exec-3] INFO  OllamaController       - 回答问题ing(流式)
+26-03-07.17:58:49.489 [http-nio-8090-exec-5] INFO  OllamaController       - 回答问题ing(流式)
+26-03-07.18:00:20.317 [main            ] INFO  Application            - Starting Application using Java 17.0.18 with PID 19376 (E:\java_project\ai-rag-knowledge\xfg-dev-tech-app\target\classes started by ZFHZZ in E:\java_project\ai-rag-knowledge)
+26-03-07.18:00:20.319 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+26-03-07.18:00:20.652 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+26-03-07.18:00:20.654 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+26-03-07.18:00:20.672 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+26-03-07.18:00:20.917 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+26-03-07.18:00:20.923 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+26-03-07.18:00:20.924 [main            ] INFO  StandardService        - Starting service [Tomcat]
+26-03-07.18:00:20.925 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+26-03-07.18:00:20.962 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+26-03-07.18:00:20.962 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 615 ms
+26-03-07.18:00:21.250 [main            ] INFO  Version                - Redisson 3.44.0
+26-03-07.18:00:21.416 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-07.18:00:21.429 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 192.168.3.245/192.168.3.245:16379
+26-03-07.18:00:21.769 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+26-03-07.18:00:21.776 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8090 (http) with context path ''
+26-03-07.18:00:21.781 [main            ] INFO  Application            - Started Application in 1.755 seconds (process running for 2.159)
+26-03-07.18:01:34.193 [http-nio-8090-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+26-03-07.18:01:34.193 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+26-03-07.18:01:34.194 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Completed initialization in 1 ms
