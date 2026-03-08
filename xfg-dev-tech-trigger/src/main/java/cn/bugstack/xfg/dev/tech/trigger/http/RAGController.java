@@ -48,13 +48,14 @@ public class RAGController implements IRAGService {
     @Override
     public Response<String> uploadFile(@RequestParam String ragTag,@RequestParam("file") List<MultipartFile> files) {
         log.info("开始上传知识库");
+        log.info(ragTag);
         for(MultipartFile file:files){
             TikaDocumentReader documentReader = new TikaDocumentReader(file.getResource());
             List<Document> documents = documentReader.get();
             List<Document> documentsSplitterList = tokenTextSplitter.apply(documents);
 
-            documents.forEach(doc -> doc.getMetadata().put("Knowledge",ragTag));
-            documentsSplitterList.forEach(doc -> doc.getMetadata().put("Knowledge",ragTag));
+            documents.forEach(doc -> doc.getMetadata().put("knowledge",ragTag));
+            documentsSplitterList.forEach(doc -> doc.getMetadata().put("knowledge",ragTag));
 
             pgVectorStore.accept(documentsSplitterList);
             RList<String> elements = redissonClient.getList("ragTag");

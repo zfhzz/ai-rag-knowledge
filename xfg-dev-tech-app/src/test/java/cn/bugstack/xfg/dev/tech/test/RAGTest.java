@@ -49,7 +49,7 @@ public class RAGTest {
 
     @Test
     public void upload() {
-        TikaDocumentReader reader = new TikaDocumentReader("./data/file.text");
+        TikaDocumentReader reader = new TikaDocumentReader("data/test.txt");
 
         List<Document> documents = reader.get();
 //        for(Document doc:documents){
