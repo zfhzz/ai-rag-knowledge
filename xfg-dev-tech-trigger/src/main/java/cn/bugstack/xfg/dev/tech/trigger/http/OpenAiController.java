@@ -9,50 +9,62 @@ import org.springframework.ai.chat.messages.UserMessage;
 import org.springframework.ai.chat.prompt.Prompt;
 import org.springframework.ai.chat.prompt.SystemPromptTemplate;
 import org.springframework.ai.document.Document;
-import org.springframework.ai.ollama.OllamaChatClient;
-import org.springframework.ai.ollama.api.OllamaOptions;
+import org.springframework.ai.openai.OpenAiChatClient;
+import org.springframework.ai.openai.OpenAiChatOptions;
 import org.springframework.ai.vectorstore.PgVectorStore;
 import org.springframework.ai.vectorstore.SearchRequest;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
 
+import java.lang.annotation.Documented;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+
 @RestController()
 @CrossOrigin("*")
-@RequestMapping("/api/v1/ollama/")
+@RequestMapping("/api/v1/openai/")
 @Slf4j
-public class OllamaController implements IAIService {
+public class OpenAiController implements IAIService {
 
     @Resource
-    private OllamaChatClient chatClient;
+    private OpenAiChatClient chatClient;
 
     @Resource
     private PgVectorStore pgVectorStore;
 
-    //http://localhost:8090/api/v1/ollama/generate?model=deepseek-r1:1.5b&message=hi
-    //非流式接口
     @RequestMapping(value = "generate", method = RequestMethod.GET)
     @Override
     public ChatResponse generate(@RequestParam String model, @RequestParam String message) {
-        log.info("回答问题ing");
-        return chatClient.call(new Prompt(message, OllamaOptions.create().withModel(model)));
+        return chatClient.call(new Prompt(
+                message,
+                OpenAiChatOptions.builder()
+                        .withModel(model)
+                        .build()
+        ));
     }
 
     /**
-     * http://localhost:8090/api/v1/ollama/generate_stream?model=deepseek-r1:1.5b&message=hi
+     * curl http://localhost:8090/api/v1/openai/generate_stream?model=deepseek-chat&message=1+1
      */
     @RequestMapping(value = "generate_stream", method = RequestMethod.GET)
-    @Override
     public Flux<ChatResponse> generateStream(@RequestParam String model, @RequestParam String message) {
-        return chatClient.stream(new Prompt(message, OllamaOptions.create().withModel(model)));
+        return chatClient.stream(new Prompt(
+                message,
+                OpenAiChatOptions.builder()
+                        .withModel(model)
+                        .build()
+        ));
     }
 
+    /**
+     * curl http://localhost:8090/api/v1/openai/generate_stream_rag?model=deepseek-chat&ragTag=知识库名称&message=耄耋几岁了
+     */
+    @RequestMapping(value = "generate_stream_rag", method = RequestMethod.GET)
     @Override
-    public Flux<ChatResponse> generateStreamRag(String model, String ragTag, String message) {
+    public Flux<ChatResponse> generateStreamRag(@RequestParam String model,@RequestParam String ragTag,@RequestParam String message) {
         String SYSTEM_PROMPT = """
                 Use the information from the DOCUMENTS section to provide accurate answers but act as if you knew this information innately.
                 If unsure, simply state that you don't know.
@@ -66,18 +78,18 @@ public class OllamaController implements IAIService {
                 .withTopK(5)
                 .withFilterExpression("knowledge == '" + ragTag + "'");
 
-        List<Document> documents = pgVectorStore.similaritySearch(request);
+        // 找出最相关的5条向量
+        List<org.springframework.ai.document.Document> documents = pgVectorStore.similaritySearch(request);
         String documentCollectors = documents.stream().map(Document::getContent).collect(Collectors.joining());
         Message ragMessage = new SystemPromptTemplate(SYSTEM_PROMPT).createMessage(Map.of("documents", documentCollectors));
-
         List<Message> messages = new ArrayList<>();
         messages.add(new UserMessage(message));
         messages.add(ragMessage);
-
         return chatClient.stream(new Prompt(
                 messages,
-                OllamaOptions.create()
+                OpenAiChatOptions.builder()
                         .withModel(model)
+                        .build()
         ));
     }
 }

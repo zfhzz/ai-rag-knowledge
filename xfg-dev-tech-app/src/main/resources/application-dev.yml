@@ -33,6 +33,11 @@ spring:
         options:
           num-batch: 512
         model: nomic-embed-text
+    openai:
+      base-url: https://api.deepseek.com
+      api-key: sk-2b1e9c2f714147e7ab16986cf0f52f83
+    rag:
+      embed: nomic-embed-text #nomic-embed-text、text-embedding-ada-002
 
 
 # Redis

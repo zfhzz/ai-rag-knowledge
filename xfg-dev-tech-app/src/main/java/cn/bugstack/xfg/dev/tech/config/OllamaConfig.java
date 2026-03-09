@@ -4,6 +4,7 @@ import org.springframework.ai.ollama.OllamaChatClient;
 import org.springframework.ai.ollama.OllamaEmbeddingClient;
 import org.springframework.ai.ollama.api.OllamaApi;
 import org.springframework.ai.ollama.api.OllamaOptions;
+import org.springframework.ai.openai.api.OpenAiApi;
 import org.springframework.ai.transformer.splitter.TokenTextSplitter;
 import org.springframework.ai.vectorstore.PgVectorStore;
 import org.springframework.ai.vectorstore.SimpleVectorStore;
@@ -20,6 +21,10 @@ public class OllamaConfig {
         return new OllamaApi(baseUrl);
     }
 
+    @Bean
+    public OpenAiApi openAiApi(@Value("${spring.ai.openai.base-url}") String baseUrl, @Value("${spring.ai.openai.api-key}") String apikey) {
+        return new OpenAiApi(baseUrl, apikey);
+    }
     @Bean
     public OllamaChatClient ollamaChatClient(OllamaApi ollamaApi) {
         return new OllamaChatClient(ollamaApi);

@@ -79,57 +79,80 @@ public class RAGController implements IRAGService {
 
     @RequestMapping(value = "analyze_git_repository", method = RequestMethod.POST)
     @Override
-    public Response<String> analyzeGitRepository(@RequestParam String repoUrl,@RequestParam String userName,@RequestParam String token) throws Exception{
+    public Response<String> analyzeGitRepository(@RequestParam String repoUrl, @RequestParam String userName, @RequestParam String token) throws Exception {
         String localPath = "E:\\clone_path";
         String repoProjectName = extractProjectName(repoUrl);
-        log.info("克隆路径:{}",new File(localPath).getAbsolutePath());
+        File directory = new File(localPath);
 
-        FileUtils.deleteDirectory(new File(localPath));
+        // 1. 清理旧目录（如果存在）
+        if (directory.exists()) {
+            FileUtils.deleteDirectory(directory);
+        }
 
-        Git git = Git.cloneRepository()
+        // 2. 使用 try-with-resources 自动管理 Git 资源关闭
+        try (Git git = Git.cloneRepository()
                 .setURI(repoUrl)
-                .setDirectory(new File(localPath))
+                .setDirectory(directory)
                 .setCredentialsProvider(new UsernamePasswordCredentialsProvider(userName, token))
-                .call();
+                .call()) {
 
-        Files.walkFileTree(Paths.get(localPath), new SimpleFileVisitor<>() {
-            @Override
-            public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
-                log.info("{} 遍历解析路径，上传知识库:{}", repoProjectName, file.getFileName());
-                try {
-                    TikaDocumentReader reader = new TikaDocumentReader(new PathResource(file));
-                    List<Document> documents = reader.get();
-                    List<Document> documentSplitterList = tokenTextSplitter.apply(documents);
+            log.info("克隆成功，开始遍历项目: {}", repoProjectName);
 
-                    documents.forEach(doc -> doc.getMetadata().put("knowledge", repoProjectName));
-
-                    documentSplitterList.forEach(doc -> doc.getMetadata().put("knowledge", repoProjectName));
-
-                    pgVectorStore.accept(documentSplitterList);
-                } catch (Exception e) {
-                    log.error("遍历解析路径，上传知识库失败:{}", file.getFileName());
+            Files.walkFileTree(Paths.get(localPath), new SimpleFileVisitor<>() {
+                @Override
+                public FileVisitResult preVisitDirectory(Path dir, BasicFileAttributes attrs) {
+                    // 【核心优化】跳过 .git 隐藏文件夹，不进入其内部
+                    if (dir.getFileName().toString().equals(".git") || dir.getFileName().toString().equals(".idea")) {
+                        return FileVisitResult.SKIP_SUBTREE;
+                    }
+                    return FileVisitResult.CONTINUE;
                 }
 
-                return FileVisitResult.CONTINUE;
-            }
+                @Override
+                public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) {
+                    String fileName = file.getFileName().toString();
 
-            @Override
-            public FileVisitResult visitFileFailed(Path file, IOException exc) throws IOException {
-                log.info("Failed to access file: {} - {}", file.toString(), exc.getMessage());
-                return FileVisitResult.CONTINUE;
-            }
-        });
+                    // 【核心优化】只解析有意义的文本文件，跳过图片、压缩包、编译产物
+                    if (isBinaryFile(fileName)) {
+                        return FileVisitResult.CONTINUE;
+                    }
 
-        FileUtils.deleteDirectory(new File(localPath));
+                    log.info("{} 正在解析: {}", repoProjectName, fileName);
+                    try {
+                        TikaDocumentReader reader = new TikaDocumentReader(new PathResource(file));
+                        List<Document> documents = reader.get();
+                        if (documents.isEmpty()) return FileVisitResult.CONTINUE;
 
+                        List<Document> documentSplitterList = tokenTextSplitter.apply(documents);
+
+                        // 打标入库
+                        documentSplitterList.forEach(doc -> doc.getMetadata().put("knowledge", repoProjectName));
+                        pgVectorStore.accept(documentSplitterList);
+
+                    } catch (Exception e) {
+                        log.error("解析文件失败: {}，原因: {}", fileName, e.getMessage());
+                    }
+                    return FileVisitResult.CONTINUE;
+                }
+            });
+        } // 执行到这里，git 会自动 close，释放文件锁
+
+        // 3. 此时删除目录就不会报错了
+        FileUtils.deleteDirectory(directory);
+
+        // 4. 更新 Redis 标签列表
         RList<String> elements = redissonClient.getList("ragTag");
-        if(!elements.contains(repoProjectName))
-            elements.add(repoProjectName);
-
-        git.close();
-        log.info("遍历解析路径，上传完成:{}", repoUrl);
+        if (!elements.contains(repoProjectName)) elements.add(repoProjectName);
 
         return Response.<String>builder().code("0000").info("调用成功").build();
+    }
+
+    // 简单的文件类型判定，防止 Tika 强行解析二进制导致内存或 CPU 飙升
+    private boolean isBinaryFile(String fileName) {
+        String name = fileName.toLowerCase();
+        return name.endsWith(".png") || name.endsWith(".jpg") || name.endsWith(".jpeg") ||
+                name.endsWith(".gif") || name.endsWith(".idx") || name.endsWith(".pack") ||
+                name.endsWith(".exe") || name.endsWith(".class") || name.endsWith(".jar");
     }
 
     //根据git地址解析知识库名称
